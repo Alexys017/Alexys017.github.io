@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+main{
+    height: 90%;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid rgb(190, 188, 188);
+}
+
+#boton{
+    border: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: red;
+    color: rgb(196, 196, 196);
+    text-align: center;
+}
+
+#encabezado{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid rgb(196,);
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+#encabezado a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#encabezado a:hover{
+    color: darkred;
+}
+
+.menu{
+    border: 2px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 70%;
+
+}
+
+.chaufa img{
+width: 50%;
+border: 1px;
+border-radius: 20px;
+margin-left: 25%;
+}
+.chaufa{
+    width: 35%;
+}
+
+#menudos ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 100%;
+}
+#menudos a{
+    text-decoration: none;
+    color: black;
+}
+#menudos a:hover{
+    color: darkred;
+}
+
+hr{
+    border: 1px solid rgb(196, 196, 196);
+}
+h1{
+    margin-left: 15%;
+}
+#redes{
+    display: flex;
+    
+}
+#ins{
+    margin-left: 10px;
+}
+#pie{
+    display: flex;
+    justify-content: space-between;
+}
+#copy{
+    color: gray;
+}
